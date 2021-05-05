@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:mimimmi_generator_flutter/generator_page.dart';
+import 'package:mimimmi_generator_flutter/output_page.dart';
 
 void main() {
+  initOutputPage();
   runApp(MyApp());
 }
 
@@ -10,10 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'ミミッミジェネレータ',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: Scaffold(
-        appBar: AppBar(title: const Text('ミミッミジェネレータ')),
-        body: const Center(child: Text('ミミッミジェネレータ')),
-      ),
+      home: GeneratorPage(),
     );
   }
 }
