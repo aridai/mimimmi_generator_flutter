@@ -8,6 +8,6 @@ https://github.com/aridai/mimimmi_generator_flutter
 
 ## コマンド
 
-* ビルド: `flutter build web --web-renderer html`
+* ビルド: `flutter build web --web-renderer canvaskit`
 * フォーマット: `flutter format ./`
 * 静的解析: `flutter analyze`
